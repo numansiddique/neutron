@@ -177,7 +177,7 @@ class Ml2Plugin(db_base_plugin_v2.NeutronDbPluginV2,
         self.add_agent_status_check_worker(self.agent_health_check)
         self.add_workers(self.mechanism_manager.get_workers())
         self._verify_service_plugins_requirements()
-        LOG.info(_LI("Modular L2 Plugin initialization complete"))
+        LOG.info(_LI("SIDDIQUE : Modular L2 Plugin initialization complete"))
 
     def _setup_rpc(self):
         """Initialize components to support agent communication."""
